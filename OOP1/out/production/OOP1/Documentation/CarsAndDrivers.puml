@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/object-diagram
+
+class Main
+
+class Car
+Car : String make;
+Car : String model;
+Car : int year;
+Car : String bodyStyle;
+Car : driver driver;
+
+class Driver
+Driver : String name;
+Driver : int age;
+Driver : + Driver()
+
+
+
+@enduml
